@@ -1,7 +1,0 @@
-sudo: false
-
-install:
-  - pip install --user awscli
-
-script:
-  - make deploy
